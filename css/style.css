@@ -1,0 +1,71 @@
+html {
+	/*overflow: hidden;*/
+}
+
+h1 {
+	font-family: Quicksand, sans-serif;
+	color: white;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: #494949;
+}
+
+/*body {
+	background: linear-gradient(to bottom right, #9bfd96, #5fdac2);
+	background-attachment: fixed;
+	overflow: hidden;
+}*/
+
+body {
+	background: linear-gradient(to bottom, #40ABBD, white 30%);
+	/*background-attachment: fixed;*/
+	/*overflow-x: hidden;*/
+	font-family: 'Poppins', sans-serif;
+}
+
+nav {
+	position: fixed;
+}
+
+.btn-rounded {
+	border-radius: 15%;
+}
+
+.card-img{
+	border-radius: 0;
+}
+
+.card {
+	border: none;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 0;
+	margin: 10px;
+}
+
+.balance {
+	font-size: 24px;
+	color: #FF9C09;
+}
+
+.balance #outof {
+	font-size: 12px;
+	color: black;
+}
+
+.balance #slash {
+	font-size: 19px;
+	color: black;
+
+}
+
+.badge {
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	border-radius: 10px;
+	font-weight: lighter;
+}
+
+.title {
+	font-family: 'Quicksand', sans-serif;
+}
